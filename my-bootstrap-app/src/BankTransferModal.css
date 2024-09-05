@@ -9,9 +9,8 @@
     overflow: hidden;
     text-transform: uppercase;
     background: linear-gradient(90deg, #12df67, black, gold);
-    
+    background-size: 200% 100%;
     background-clip: text; /* Apply gradient to text only */
-    animation: wave 4s linear infinite;
   }
   
   @keyframes wave {
