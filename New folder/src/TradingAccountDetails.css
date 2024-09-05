@@ -1,0 +1,111 @@
+/* General Container Styling */
+.trading-account-details {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative; /* Ensure the floating buttons are positioned correctly */
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card Header */
+  .card-header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Card Body */
+  .card-body {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Nav Tabs */
+  .nav-tabs {
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .nav-tabs .nav-link {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  /* Account Details */
+  .account-details {
+    margin-bottom: 20px;
+  }
+  
+  .account-details p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Account Actions */
+  .account-actions {
+    margin-top: 20px;
+  }
+  
+  .account-actions .dropdown-container {
+    margin-top: 10px;
+  }
+  
+  .account-actions .dropdown-menu {
+    background-color: #f8f9fa;
+  }
+  
+  /* Dropdown Button */
+  .dropdown-toggle::after {
+    display: none;
+  }
+  
+  /* Floating Action Buttons */
+  .floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .floating-btn {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+  }
+  
+  .floating-btn:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Adjusting styles for buttons in the dropdown */
+.dropdown-menu {
+    min-width: 200px;
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  .dropdown-item {
+    color: hsl(0, 23%, 3%);
+  }
+  
+  .dropdown-item:hover {
+    background-color: #495057;
+  }
+  
